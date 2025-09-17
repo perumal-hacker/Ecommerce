@@ -10,7 +10,7 @@
     "prod": "cross-env NODE_ENV=PRODUCTION nodemon backend/app.js",
     "seeder": "node backend/seeder/seeder.js"
   },
-  "author": "Ghulam Abbas",
+  "author": "Perumal",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
