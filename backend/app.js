@@ -41,9 +41,9 @@ import authRoutes from "./routes/auth.js";
 import orderRoutes from "./routes/order.js";
 import paymentRoutes from "./routes/payment.js";
 
-app.get("/", (req, res) => {
-  res.send("🚀 API is running...");
-});
+// app.get("/", (req, res) => {
+//   res.send("🚀 API is running...");
+// });
 
 
 app.use("/api/v1", productRoutes);
