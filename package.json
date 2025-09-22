@@ -8,8 +8,7 @@
     "start": "node backend/app.js",
     "dev": "cross-env NODE_ENV=DEVELOPMENT nodemon backend/app.js",
     "prod": "cross-env NODE_ENV=PRODUCTION nodemon backend/app.js",
-    "seeder": "node backend/seeder/seeder.js",
-    "postinstall": "npm run build"
+    "seeder": "node backend/seeder/seeder.js"
   },
   "author": "Perumal",
   "license": "ISC",
